@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentDetails"
+    android:padding="30dp"
+    android:layout_margin="10dp"
+    >
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/download"/>
+    <View
+        android:layout_marginTop="10dp"
+        android:id="@id/space"
+        android:layout_below="@id/image"
+        android:layout_height="2dp"
+        android:background="@android:color/black"
+        android:layout_width="match_parent" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layout1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"/>
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="@string/hello_blank_fragment"  />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/layout2"
+        android:layout_below="@id/layout1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enrollment"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="@string/hello_blank_fragment"  />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout2"
+        android:id="@+id/layout3">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="@string/hello_blank_fragment" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout3"
+        android:id="@+id/layout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bhawan"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"/>
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="@string/hello_blank_fragment" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/layout4">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Branch"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_orange_dark"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:text="@string/hello_blank_fragment"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragmentStudentUploadActivity"
+    >
+
+    <EditText
+        android:id="@+id/editext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/editext2"
+        android:layout_below="@+id/editext1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enrollment Number"
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/editext3"
+        android:layout_below="@id/editext2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Age"
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/editext4"
+        android:layout_below="@id/editext3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Bhawan"
+        android:layout_margin="8dp"/>
+    <EditText
+        android:id="@+id/editext5"
+        android:layout_below="@id/editext4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Branch"
+        android:layout_margin="8dp"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_below="@id/editext5"
+        android:layout_centerHorizontal="true"
+        />
+
+
+
+
+</RelativeLayout>
