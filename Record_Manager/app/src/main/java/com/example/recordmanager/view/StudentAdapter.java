@@ -1,6 +1,5 @@
-package com.example.recordmanager;
+package com.example.recordmanager.view;
 
-import android.net.sip.SipSession;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -8,6 +7,10 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.recordmanager.R;
+import com.example.recordmanager.model.Student;
+
 import java.util.List;
 
 public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentHolder> {
@@ -24,11 +27,11 @@ public class StudentAdapter extends RecyclerView.Adapter<StudentAdapter.StudentH
         Listener = listener;
     }
 
-    StudentAdapter(List<Student> student) {
+    public StudentAdapter(List<Student> student) {
         this.student = student;
     }
 
-    class StudentHolder extends RecyclerView.ViewHolder {
+    public class StudentHolder extends RecyclerView.ViewHolder {
         private TextView name;
         private TextView enrollment;
 

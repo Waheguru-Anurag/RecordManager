@@ -1,4 +1,4 @@
-package com.example.recordmanager;
+package com.example.recordmanager.viewmodel;
 
 import androidx.annotation.NonNull;
 import androidx.arch.core.util.Function;
@@ -6,6 +6,8 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.Transformations;
 import androidx.lifecycle.ViewModel;
 
+import com.example.recordmanager.model.Student;
+import com.example.recordmanager.model.StudentLiveData;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;

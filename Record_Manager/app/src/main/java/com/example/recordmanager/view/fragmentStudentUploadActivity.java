@@ -1,4 +1,4 @@
-package com.example.recordmanager;
+package com.example.recordmanager.view;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -10,9 +10,10 @@ import android.widget.EditText;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.navigation.ActivityNavigator;
 import androidx.navigation.Navigation;
 
+import com.example.recordmanager.R;
+import com.example.recordmanager.model.Student;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 

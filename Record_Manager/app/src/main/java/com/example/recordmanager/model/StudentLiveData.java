@@ -1,4 +1,4 @@
-package com.example.recordmanager;
+package com.example.recordmanager.model;
 
 import android.util.Log;
 

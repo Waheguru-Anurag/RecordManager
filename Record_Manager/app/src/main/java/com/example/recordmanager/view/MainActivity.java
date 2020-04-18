@@ -1,9 +1,11 @@
-package com.example.recordmanager;
+package com.example.recordmanager.view;
 
 import android.os.Bundle;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.recordmanager.R;
 
 public class MainActivity extends AppCompatActivity {
     @Override

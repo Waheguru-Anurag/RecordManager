@@ -1,4 +1,4 @@
-package com.example.recordmanager;
+package com.example.recordmanager.view;
 
 import android.os.Bundle;
 
@@ -8,6 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import com.example.recordmanager.R;
 
 public class fragmentDetails extends Fragment {
 
