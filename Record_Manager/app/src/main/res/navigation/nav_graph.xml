@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentMain">
+
+    <fragment
+        android:id="@+id/fragmentMain"
+        android:name="com.example.recordmanager.view.fragmentMain"
+        android:label="fragmentMain" >
+        <action
+            android:id="@+id/fragmentDetails"
+            app:destination="@id/fragmentDetails"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim"/>
+        <action
+            android:id="@+id/fragmentUpload"
+            app:destination="@id/fragmentUpload"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
+
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentDetails"
+        android:name="com.example.recordmanager.view.fragmentDetails"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+    <argument
+        android:name="myArg1"
+        app:argType="string"
+        />
+        <argument
+            android:name="myArg2"
+            app:argType="string"
+        />
+        <argument
+            android:name="myArg3"
+            app:argType="string"
+            />
+        <argument
+            android:name="myArg4"
+            app:argType="string"
+            />
+        <argument
+            android:name="myArg5"
+            app:argType="string"
+            />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentUpload"
+        android:name="com.example.recordmanager.view.fragmentStudentUploadActivity"
+        android:label="fragment_details"
+        tools:layout="@layout/fragment_details" >
+        <action
+            android:id="@+id/action_fragmentUpload_to_fragmentMain"
+            app:destination="@id/fragmentMain" />
+    </fragment>
+</navigation>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1087815562736",
+    "firebase_url": "https://recordmanger.firebaseio.com",
+    "project_id": "recordmanger",
+    "storage_bucket": "recordmanger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087815562736:android:6e7bf77306509458cc9935",
+        "android_client_info": {
+          "package_name": "com.example.recordmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087815562736-qf4as6dbpjfn7gv1i5r4uvdud3tgig57.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.recordmanager",
+            "certificate_hash": "569c631d8f84dbf95314e3a8b41e459a1e7a72e5"
+          }
+        },
+        {
+          "client_id": "1087815562736-m8hs8m32fc6n21n7sl2ofjubnm33f214.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGaeY8-OWIyMGZiRUSx_sdyAi1RIdrywk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087815562736-m8hs8m32fc6n21n7sl2ofjubnm33f214.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
